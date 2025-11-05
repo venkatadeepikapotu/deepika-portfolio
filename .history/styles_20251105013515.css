@@ -120,12 +120,6 @@ p{color:var(--muted);line-height:1.7}
   filter: blur(40px);
 }
 
-@media (max-width: 600px) {
-  .hero-photo img {
-    width: 120px;
-    height: 120px;
-  }
-}
 
 
 /* Project gallery cards */

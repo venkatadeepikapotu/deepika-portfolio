@@ -109,24 +109,6 @@ p{color:var(--muted);line-height:1.7}
   box-shadow: 0 15px 40px rgba(63, 169, 245, 0.4);
 }
 
-.hero-photo::after {
-  content: '';
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(63,169,245,0.25), transparent 70%);
-  z-index: -1;
-  filter: blur(40px);
-}
-
-@media (max-width: 600px) {
-  .hero-photo img {
-    width: 120px;
-    height: 120px;
-  }
-}
-
 
 /* Project gallery cards */
 .gallery .project-card{padding:0;overflow:hidden}
